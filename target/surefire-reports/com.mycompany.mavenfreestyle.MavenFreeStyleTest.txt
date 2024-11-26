@@ -1,26 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.mavenfreestyle.MavenFreeStyleTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec <<< FAILURE!
-com.mycompany.mavenfreestyle.MavenFreeStyleTest.testMain()  Time elapsed: 0.015 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: The test case is a prototype.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
-	at com.mycompany.mavenfreestyle.MavenFreeStyleTest.testMain(MavenFreeStyleTest.java:32)
-
-com.mycompany.mavenfreestyle.MavenFreeStyleTest.testFibonacci()  Time elapsed: 0.023 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
-	at com.mycompany.mavenfreestyle.MavenFreeStyleTest.testFibonacci(MavenFreeStyleTest.java:39)
-
-com.mycompany.mavenfreestyle.MavenFreeStyleTest.testFibonacci2()  Time elapsed: 0 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
-	at com.mycompany.mavenfreestyle.MavenFreeStyleTest.testFibonacci2(MavenFreeStyleTest.java:45)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in com.mycompany.mavenfreestyle.MavenFreeStyleTest

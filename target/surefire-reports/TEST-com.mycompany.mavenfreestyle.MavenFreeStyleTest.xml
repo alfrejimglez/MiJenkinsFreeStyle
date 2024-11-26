@@ -1,87 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="3" name="com.mycompany.mavenfreestyle.MavenFreeStyleTest" time="0.038" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.mavenfreestyle.MavenFreeStyleTest" time="0.032" tests="3" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-oracle/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/olivert/NetBeansProjects/mavenFreeStyle"/>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\alfre\Documentos\GitHub\MiJenkinsFreeStyle\target\test-classes;C:\Users\alfre\Documentos\GitHub\MiJenkinsFreeStyle\target\classes;C:\Users\alfre\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\alfre\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\alfre\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\alfre\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\alfre\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\alfre\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\alfre\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/olivert/NetBeansProjects/mavenFreeStyle"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="maven.ext.class.path" value="/snap/netbeans/69/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
-    <property name="classworlds.conf" value="/snap/netbeans/69/netbeans/java/maven/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/snap/netbeans/69/netbeans/java/maven/conf"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\alfre\AppData\Local\Temp\surefire17369904978990687075\surefirebooter-20241126150217689_3.jar C:\Users\alfre\AppData\Local\Temp\surefire17369904978990687075 2024-11-26T15-02-17_593-jvmRun1 surefire-20241126150217689_1tmp surefire_0-20241126150217689_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="5.15.0-57-generic"/>
-    <property name="library.jansi.path" value="/snap/netbeans/69/netbeans/java/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/olivert"/>
-    <property name="user.timezone" value="America/Los_Angeles"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="olivert"/>
-    <property name="java.class.path" value="/snap/netbeans/69/netbeans/java/maven/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/snap/netbeans/69/netbeans/java/maven-nblib/netbeans-eventspy.jar test"/>
-    <property name="java.home" value="/usr/lib/jvm/java-17-oracle"/>
+    <property name="test" value="com.mycompany.mavenfreestyle.MavenFreeStyleTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\alfre\Documentos\GitHub\MiJenkinsFreeStyle\target\test-classes;C:\Users\alfre\Documentos\GitHub\MiJenkinsFreeStyle\target\classes;C:\Users\alfre\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\alfre\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\alfre\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\alfre\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\alfre\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\alfre\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\alfre\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\alfre"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17.0.1"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/snap/netbeans/69/netbeans/java/maven"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\alfre\Documentos\GitHub\MiJenkinsFreeStyle"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\alfre\AppData\Local\Temp\surefire17369904978990687075\surefirebooter-20241126150217689_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="alfre"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="D:\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\alfre\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\alfre\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\alfre\Documentos\GitHub\MiJenkinsFreeStyle"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MKVToolNix;C:\Program Files\ffmpeg;C:\Program Files\adb;C:\Users\alfre\AppData\Local\Android\Sdk;C:\Users\alfre\AppData\Local\Android\Sdk\platform-tools;C:\Users\alfre\.gradle\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\SpyShelter\sps;C:\Program Files (x86)\poppler\Library\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\GitHub CLI\;C:\Program Files\nodejs\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Java\jdk-23;C:\maven\bin;C:\Users\alfre\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\alfre\AppData\Local\Programs\Python\Python313\;C:\Users\alfre\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\alfre\AppData\Local\Programs\Python\Python310\;C:\Users\alfre\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\alfre\AppData\Local\Programs\Python\Python312\;C:\Users\alfre\AppData\Local\Microsoft\WindowsApps;C:\Users\alfre\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\ffmpeg;C:\Program Files\MKVToolNix;C:\Program Files\adb;C:\Users\alfre\AppData\Local\GitHubDesktop\bin;C:\Users\alfre\AppData\Local\Android\Sdk;C:\Users\alfre\AppData\Local\Android\Sdk\platform-tools;C:\Users\alfre\.gradle\bin;C:\Users\alfre\AppData\Roaming\Python\Python310\Scripts;C:\Users\alfre\.dotnet\tools;C:\Users\alfre\AppData\Local\spicetify;C:\chromedriver;C:\Users\alfre\AppData\Local\Programs\Ollama;C:\Program Files (x86)\poppler\Library\bin;C:\Users\alfre\AppData\Local\Microsoft\WinGet\Links;C:\Users\alfre\AppData\Roaming\npm;C:\ProgramData\gradle-8.11.1\bin;C:\ProgramData\gradle-8.11.1;C:\Users\alfre\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Program Files\Java\jdk-23;D:\netbeans\bin;C:\maven\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase classname="com.mycompany.mavenfreestyle.MavenFreeStyleTest" name="com.mycompany.mavenfreestyle.MavenFreeStyleTest.testMain" time="0.015">
-    <failure message="The test case is a prototype." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: The test case is a prototype.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
-	at com.mycompany.mavenfreestyle.MavenFreeStyleTest.testMain(MavenFreeStyleTest.java:32)
-</failure>
-    <system-out>main
+  <testcase name="testMain" classname="com.mycompany.mavenfreestyle.MavenFreeStyleTest" time="0.014">
+    <system-out><![CDATA[main
 Hello World!
-</system-out>
+]]></system-out>
   </testcase>
-  <testcase classname="com.mycompany.mavenfreestyle.MavenFreeStyleTest" name="com.mycompany.mavenfreestyle.MavenFreeStyleTest.testFibonacci" time="0.023">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
-	at com.mycompany.mavenfreestyle.MavenFreeStyleTest.testFibonacci(MavenFreeStyleTest.java:39)
-</failure>
-  </testcase>
-  <testcase classname="com.mycompany.mavenfreestyle.MavenFreeStyleTest" name="com.mycompany.mavenfreestyle.MavenFreeStyleTest.testFibonacci2" time="0">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:162)
-	at com.mycompany.mavenfreestyle.MavenFreeStyleTest.testFibonacci2(MavenFreeStyleTest.java:45)
-</failure>
-  </testcase>
+  <testcase name="testFibonacci" classname="com.mycompany.mavenfreestyle.MavenFreeStyleTest" time="0.003"/>
+  <testcase name="testFibonacci2" classname="com.mycompany.mavenfreestyle.MavenFreeStyleTest" time="0.002"/>
 </testsuite>
